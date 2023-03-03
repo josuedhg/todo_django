@@ -1,4 +1,5 @@
-from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import ListAPIView, CreateAPIView
+from rest_framework.generics import RetrieveUpdateDestroyAPIView
 from rest_framework.serializers import ModelSerializer
 
 from .models import Task
